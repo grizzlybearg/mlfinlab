@@ -1,28 +1,33 @@
 # Production
 numpy==1.23
-matplotlib==3.2.2
-pandas==1.1.5
-scikit-learn==0.24.1
-scipy==1.6.0
-statsmodels==0.12.2
-cython==0.29.17
-POT==0.7.0
+matplotlib==3.6.3
+pandas==1.5.3
+scikit-learn==1.2.1
+scipy==1.10.0
+statsmodels==0.13.5
+cython==0.29.33
 numba==0.56.4
-networkx==2.5
-dash==1.19.0
-dash-cytoscape==0.2.0
-dash-bootstrap-components==0.11.3
-jupyter-dash==0.4.0
+networkx==3.0
+
+dash-bootstrap-components==0.3.1
+dash-cytoscape==0.3.0
+jupyter-dash==0.4.2
 tensorflow==2.11
 joblib==1.2.0
-analytics-python==1.2.9
-getmac==0.8.2
+analytics-python==1.4.0
+getmac==0.9.2
+POT==0.8.2
 
+# Has dependencies requiring Python below 3.7
+dash==2.8.1
+# Dependencies are:
+#importlib-metadata==4.8.3;python_version<"3.7"
+#cryptography<3.4;python_version<"3.7"
 
 # Develop
 bump2version==1.0.1
 bumpversion==0.6.0
-codecov==2.1.11
+uploader==0.3.2
 coverage==5.4
 pylint==2.6.0
 sphinx==3.4.3 # Docs
